@@ -1,0 +1,63 @@
+<!-- Radio Button (just another type of input tag like a check box) -->
+<!-- Select Tag (how we get dropdown menus) -->
+<!-- Textarea tag (how we can create text inputs that are multiple lines long) -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inputs Demo</title>
+</head>
+<body>
+    
+    <h1>Radio Button</h1>
+    <input type="radio">
+    <!-- Can't turn off when you've selected the radio button, usually used for something with one choice. Like a click yes if scenario. -->
+
+    <h1>Checkbox</h1>
+    <input type="checkbox">
+
+ <!-- Can be selected and deselected -->
+
+    <p>Do you prefer cats or dogs?</p>
+    <input type="radio">
+    <input type="radio">
+
+    <!-- You can see that you can select both at the same time and that's not what we want -->
+
+    <p>Do you prefer cats or dogs?</p>
+
+    <form>
+        <label for="dogs">Dogs:</label>
+        <input name="petchoice" id="dogs" type="radio" value="DOGS">
+
+        <label for="cats">Cats:</label>
+        <input name="petchoice" id="cats" type="radio" value="CATS">
+
+    <!-- By giving them the same name (name="petchoice") they are now connected and you can't select both, has to be one or the other. -->
+        
+        <p>What's your favorite color?</p>
+        <select name="color">
+            <option>      </option>
+            <option>Red</option>
+            <option>Orange</option>
+            <option>Yellow</option>
+        </select>
+
+        <p>What's your current mood?</p>
+        <select name="mood">
+            <option></option>
+            <option value="happy">:)</option>
+            <option value="neutral">:|</option>
+            <option value="sad">:(</option>
+        </select>
+
+<!-- TEXT AREA TAG -->
+<!-- It is a separate form control from the "input text type". You can specify how big that text area is. -->
+        <p>
+        <textarea name="paragraph" rows="10" cols="50"></textarea>
+        </p>
+        <button>Go!</button>
+    </form>
+
+</body>
+</html>

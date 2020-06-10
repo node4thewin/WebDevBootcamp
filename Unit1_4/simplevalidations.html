@@ -1,0 +1,47 @@
+<!-- Simple Validations -->
+<!--    - The 'required' attribute validates that an input is not empty -->
+<!--    - There are also type validations. Try changing "type" from "text" to "email" -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Validations</title>
+</head>
+<body>
+    <h1>Sign In</h1>
+    <form action="/sign-in-url" method="post">
+        <label for="email">Email</label>
+        <input id="email" type="email" required>
+        <label for="password">Password</label>
+        <input id="password" type="password" required>
+        <button>Login</button>
+    </form>
+
+<!-- All you have to do to make sure something is "required" is add the "required attribute to the end of your input tag" -->
+
+    <h1>Sign-In Required</h1>
+<form action="http:/www.wikipedia.org">
+    <label for="username">Username:</label>
+    <input id="username" type="text" placeholder="username" required>
+
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="password">
+
+    <input type="submit">
+</form>
+
+<!-- FORMAT OF DATA like dfa;skdjf@gmail.com -->
+
+<h1>E-mail Required</h1>
+<form action="http:/www.wikipedia.org">
+    <label for="username">Email:</label>
+    <input id="username" type="email" placeholder="username" required>
+
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="password" required>
+
+    <input type="submit">
+</form>
+
+</body>
+</html>

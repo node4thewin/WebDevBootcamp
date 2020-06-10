@@ -1,0 +1,39 @@
+
+/* BORDERS */
+
+
+h1 {
+    color: rgba(255,255,255,0.4);
+/*  border-color: white;
+    border-width: 4px;
+    border-style: solid;*/
+    /*solid, dashed or dotted*/
+
+    /*I commented the above out because there is a shortcut syntax since we 
+        usually always set color, width, and style at the same time. See below*/
+    border: 4px white solid;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: rgba(255,255,255,.2);
+}
+ 
+h4 {
+    color: rgba(0,0,0, 0.8);
+    background: rgb(255, 255, 255);
+}
+
+ol {
+    color: rgba(255,255,255,0.5);
+}
+
+body {
+    background: url(https://thenypost.files.wordpress.com/2019/09/somethings-killing-galaxys2.jpg?quality=80&strip=all);
+    background-repeat: no-repeat;
+    /* if you would like to change the size of the background image you can use 
+    the property below...*/
+    background-size: cover;

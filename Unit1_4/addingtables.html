@@ -1,0 +1,51 @@
+<!-- This is how you add tables in HTML, this will also introduce CSS so you can style the tables and add border/colors etc. -->
+
+<!-- Inside each <table> element you must have a <tr> or "table row" element. inside eache <tr> or table row element you must have a <td> element
+
+There are multiple ways to do this. -->
+
+<!-- Let's try another table -->
+
+<!-- Name   Age
+===========
+Rusty  2
+Wyatt  13 -->
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Rusty</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Wyatt</td>
+        <td>13</td>
+    </tr>
+</table>
+
+<!-- HTML5 is about having things with more meaning...so what we do is use a few more elements like  <thead> and a <tbody>. <thead> just signifies the bolded heading of the table. It does not affect the visuals but it does add more information to the structure of the website. -->
+
+ <table border="1">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Breed</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Rusty</td>
+        <td>2</td>
+        <td>Mutt</td>
+    </tr>
+    <tr>
+        <td>Wyatt</td>
+        <td>13</td>
+        <td>Golden</td>
+    </tr>
+    </tbody>
+</table>

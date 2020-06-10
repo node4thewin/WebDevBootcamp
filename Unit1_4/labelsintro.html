@@ -1,0 +1,40 @@
+<!-- Labels -->
+
+<!-- Labels let us add captions to individual elements in our form -->
+<!-- Labels are very important for making out site "accessible" especially for people who are visually impaired. Screen reading software looks for label tags. -->
+
+<!-- Nice way to add a little caption to show what parts of the form are used for. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Demo (Labels)</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <!-- action - where the form sends data to -->
+    <!-- method - what HTTP method (get/post) -->
+
+    <label>
+        Username:
+        <input type="text" placeholder="username">
+    </label>
+
+    <label>
+        Password:
+        <input type="password" placeholder="password">
+    </label>
+
+    <input type="submit">
+
+<!-- Now there is another "syntax" or way to display this information... -->
+
+<form action="/sign-in-url" method="post">
+    <label>Username: <input type="text" placeholder="username"></label>
+    <label>Password: <input type="password" placeholder="password"></label>
+    <button>Login</button>
+</form>
+
+</body>
+</html>

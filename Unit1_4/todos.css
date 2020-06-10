@@ -1,0 +1,35 @@
+/* This is for tiy_todolist.html */
+
+body {
+    background: orange;
+}
+
+/* Element Selector 
+
+    Select all instances of a given element */
+
+li {
+    border: 4px rgba(0,0,0,.4) dotted;
+}
+
+/* ID Selector 
+
+    Selects an element with a given ID. Only one per page. Must use a
+    hook (or an "id" or "class"). Used to single something out and target
+    one element. Can ONLY APPEAR ONE TIME. Can have multiple id's, just not
+    with the same name. */
+
+#special{
+    background: yellow;
+}
+
+/* CLASS SELECTOR 
+
+    Selects all elements with a given class. In order to "select" an ID you 
+    use the #, but to select a CLASS you use "." */
+
+/*  This also shows text decoration as a style. */
+
+.completed  {
+    text-decoration: rgba(0,0,0,0.2) line-through; 
+}

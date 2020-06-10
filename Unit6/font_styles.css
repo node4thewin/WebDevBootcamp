@@ -1,0 +1,76 @@
+/*THESE ARE ALL TEXT-RELATED STYLES*/
+
+/* font-family */
+
+h1 {
+    font-family: "Helvetica";
+}
+
+p {
+    font-family: "Trebuchet MS";
+}
+
+/* font-size */
+
+body {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 4.0em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+span {
+    font-size: 2.0em;
+}
+/* "em" is dynamic so it is relative to everything around it. 
+    This is probably good for responsive websites etc. Most people set the <body>
+    as a small px like 10px then use em for everything else so it is all relative.
+    */
+
+/* font-weight ( TWO WAYS ) */
+
+span {
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+/* line-height */
+/* CONTROLS THE HEIGHT OF A GIVEN LINE (space between one line and the next) */
+/* This is always associated with the size of the font. The larger the font the
+    more pronounced the line-height. */
+
+h1 {
+    line-height: 2;
+}
+
+/* text-align */
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+/* text-decoration */
+
+h1 {
+    text-decoration: underline;
+}
+
+
+/* UNRELATED */
+
+body {
+    background: #BDB76B;
+}
+
+

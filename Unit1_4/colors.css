@@ -1,0 +1,77 @@
+/*website for color palette
+https://colours.neilorangepeel.com/
+*/
+
+/* COLOR IN CSS (HEXADECIMAL) */
+h1 {
+    color: #FFFFFF;
+/*  border-color: white;
+    border-width: 4px;
+    border-style: solid;*/
+    /*solid, dashed or dotted*/
+
+    /*I commented the above out because there is a shortcut syntax since we 
+        usually always set color, width, and style at the same time. See below*/
+    border: 5px rgba(255,255,240,.5) dashed;
+}
+/*
+DECIMAL -- Base 10 (means 10 choices)
+0,1,2,3,4,5,6,7,8,9
+_ _ _ 
+
+BINARY -- Base 2 (means 2 choices)
+0,1
+_ _ _
+
+HEXADECIMAL -- Base 16 (means 16 choices)
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+Hexadecimal digits are 6 digits long, starts with an "octothorp"
+# _ _ _ _ _ _ 
+
+    First _ _ corresponds to red
+    Second _ _ corresponds to how much green
+    Third _ _ corresponds to how much blue (RGB)
+*/
+/* COLOR IN CSS CONTINUED (RGB) */
+/* 3 channels: Red, Green, and Blue. Each ranges from 0-255 */
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+/* COLOR IN CSS CONTINUED (RGBA) */
+/* This is if you want colors to be transparent (alpha channel) */
+/* Just like RGB, but with an alpha(transparency) channel. 
+   Ranges from 0.0 - 1.0*/
+
+h3 {
+    color: rgba(255,255,255,.2);
+}
+
+/* COLOR AND BACKGROUND
+    Use 'color' to set text color and 'background' for background color 
+*/
+
+h4 {
+    color: rgba(0,0,0, 0.8);
+    background: rgb(255, 255, 255);
+}
+
+ol {
+    color: rgba(255,255,255,0.5);
+}
+
+body {
+    background: url(https://thenypost.files.wordpress.com/2019/09/somethings-killing-galaxys2.jpg?quality=80&strip=all);
+/*  background-repeat: no-repeat;*/
+    /* if you would like to change the size of the background image you can use 
+    the property below...*/
+/*  background-size: cover;*/
+}
+
+
+
+
+
+

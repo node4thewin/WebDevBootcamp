@@ -1,0 +1,83 @@
+<!-- HTML FORMS
+
+Objectives
+
+ - Use the <form></form> tag
+ - Use the <input></input> tag
+ - Use the <label></label> tag
+ - Write Simple Validations -->
+
+ <!-- The <form> Tag -->
+
+<!-- <form action="/my-form-submitting-page" method="post">
+
+    - "action" is the URL to send form data to
+    - "method" is the type of HTTP request
+    (UNTIL WE COVER BACK END JS, our forms won't actually do anything)
+
+ We use "get" when we're asking for data, we use "post" when we're sending something to a database. -->
+
+<!--  The <input> tag
+
+ The "input" tag creates interactive controls. The "type" attribute determines the type of input. -->
+
+ <!--
+ Ex. <input type="text">
+    <input type="date">
+    <input type="color">
+    <input type="file">
+    <input type="checkbox"> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Demo</title>
+</head>
+<body>
+    
+    <h1>Login</h1>
+<input type="text">
+<input type="text" placeholder="username">
+<input type="color">
+<input type="radio">
+<input type="password">
+<input type="password" placeholder="password">
+<button>Submit</button>
+<input type="submit">
+
+<!-- This is a clean version of what a username/password login would look like -->
+
+<h1>Login</h1>
+<!-- action - where the form sends data to -->
+<!-- method - what HTTP method (get/post) -->
+<!-- This will show adding form, nothing appears to change except if we add text the form tag will push the text below the inputs. -->
+<!-- this demonstrates that we can alter where the data goes by altering the action -->
+
+<form action="http://wikipedia.com" method="get">
+    <input type="text" placeholder="username">
+    <input type="password" placeholder="password">
+    <input type="submit">
+</form>
+<p>Please make sure to use anything but the F you character.</p>
+
+<!-- the "name" aspect puts names to out data/queries so we can track it -->
+
+<form>
+    <input name="username" type="text" placeholder="username">
+    <input name="password" type="password" placeholder="password">
+    <input type="submit">
+</form>
+<!-- using <form> also refreshes the page after submitting or inputting something. -->
+
+<form action="http:/www.wikipedia.org">
+    <label for="username">Username:</label>
+    <input id="username" type="text" placeholder="username" required>
+
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="password">
+
+    <input type="submit">
+</form>
+<!-- if you don't specify a method or action it will stay where it is or you will just have a "get" request. -->
+</body>
+</html>

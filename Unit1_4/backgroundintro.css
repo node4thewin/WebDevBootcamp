@@ -1,0 +1,16 @@
+/* BACKGROUNDS */
+
+/* The background property can also set a background image. */
+
+body {
+    background: url(https://i.pinimg.com/564x/29/9f/29/299f2974a12149f7fbe3425a002ab33d.jpg);
+    /* if the image is too small you can do the background property above. 
+   (background-rep)*/
+    background-repeat: no-repeat;    
+    /* if you would like to change the size of the background image you can use 
+    the property below...*/
+    background-size: cover;
+}
+
+/* if the image is too small you can do the background property above. 
+   (background-rep)*/

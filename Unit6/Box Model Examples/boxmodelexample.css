@@ -1,0 +1,34 @@
+p {
+
+text-align: center;
+font-size: 30px;
+
+/* Content - Width and Height */
+
+width: 50%;
+
+/* Border */
+/* can changed top, bottom, left, or right if you want */
+border: 2px solid blue;
+border-right: 5px solid green;
+
+/*Padding */
+
+padding: 10px;
+/*this sets it at 10px across all four sides...however we can choose just right,
+    left, top, or bottom if we want */
+padding-bottom: 12px;
+
+/* Margin */
+
+/*margin: 100px;
+margin-top: 500px;
+
+OR */
+margin: 20px 40px 200px 100px;
+/* top, right, bottom, left */
+
+}
+
+/* IF YOU WANT TO GET  GOOD LOOK AT HOW THESE ARE APPLIED YOU CAN LOOK AT 
+    "INSPECT" IN GOOGLE CHROME*/

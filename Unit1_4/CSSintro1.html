@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+
+<!-- this is the TRADITIONAL way to tie CSS to HTML, however this won't work because of what's below. Check out the aboutme.html for a clean version -->
+
+    <link rel="stylesheet" type="text/css" href="app.css">
+
+<!-- you can also write some css inside of an html file (below) -->
+    <style type="text/css">
+/*  selector {
+    property: value;
+    }*/
+    h1 {
+        color: purple;
+    }
+
+    li {
+        color: orange;
+    }
+    </style>
+
+</head>
+<body>
+<h1>About Me</h1>
+
+<h4>My Hobbies:</h4>
+<ul>
+    <!-- old way of coloring and styling -->
+    <li style="color: purple;">Playing Tarkov</li>
+    <li>Cooking</li>
+    <li>Callie</li>
+</body>
+</html>
+
+<!-- now we want CSS to be contained in it's own file since it's just the style -->
+

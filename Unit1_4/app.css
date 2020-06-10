@@ -1,0 +1,52 @@
+/* must be in same directory as HTML file*/
+/*
+
+DECIMAL -- Base 10 (means 10 choices)
+0,1,2,3,4,5,6,7,8,9
+
+_ _ _ 
+
+BINARY -- Base 2 (means 2 choices)
+0,1
+
+_ _ _
+
+HEXADECIMAL -- Base 16 (means 16 choices)
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+Hexadecimal digits are 6 digits long, starts with an "octothorp"
+
+# _ _ _ _ _ _ 
+
+    First _ _ corresponds to red
+    Second _ _ corresponds to how much green
+    Third _ _ corresponds to how much blue (RGB)
+
+*/
+
+h1 {
+    color:  #F400DD;
+}
+
+/*You usually won't have to memorize all these colors. You can easily go to a
+color picker online like "www.colorpicker.com" or like 
+https://colours.neilorangpeel.com"
+*/
+
+/*EXAMPLE OF RGB syntax below*/
+
+h4 {
+    color: rgb(68,0, 255);
+}
+
+body {
+    color: rgb(255,255,255);
+    background: url(https://i.pinimg.com/originals/02/07/18/020718aeefe763c45379a034ee83c40e.jpg);
+    background-repeat: no-repeat;
+    /* if you would like to change the size of the background image you can use 
+    the property below...*/
+    background-size: cover;
+ 
+}
+
+
