@@ -5,3 +5,18 @@ img {
 }
 /* this means that each photo takes up 30% + 1.66% + 1.66% of space. If you add three photos
 together that's 33.3% per image and that times three is as close to 100% of the page as possible. */
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700; 
+    /* font-weight is in increments of 100 and goes from 100-800 */
+    font-size: 65px;
+    border-bottom: 3px solid rgba(128,128,128,.5);
+    margin: auto;
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+/* SPACE BETWEEN AN ELEMENT AND IT'S BORDER IS PADDING */
