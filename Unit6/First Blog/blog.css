@@ -47,3 +47,12 @@ h2 {
     border-left: 4px solid #778899;
     padding-left: 4px;
 }
+
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 3px #778899;
+}
+hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
