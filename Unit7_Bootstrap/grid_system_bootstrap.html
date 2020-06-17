@@ -1,0 +1,49 @@
+<!-- using the grid system we can tell things how much space to take up. especially when we hit "mobile" size. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Bootstrap Grid System</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <style type="text/css">
+        .pink {
+            background: pink;
+            border: 1px solid purple;
+        }
+        .blue {
+            background: blue;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+
+<!--
+        Objectives:
+    1. Understand the purpose of the grid system
+    2. Understand the 4 different sizes
+    3. Write Nested Grids
+ 
+ -->
+<!-- THERE IS ALWAYS 12 UNITS ACROSS ANY CONTAINER AND WE CAN USE THOSE HOWEVER WE WANT (2/8/2 OR 4/4/4 OR 3/3/3/3 ETC) -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2 pink">COL LG 2</div>
+        <div class="col-lg-8 pink">COL LG 8</div>
+        <div class="col-lg-2 pink">COL LG 2</div>
+    </div>
+    <!-- Adding another row is easy... -->
+    <div class="row">
+        <div class="col-lg-4 blue">COL LG 4</div>
+        <div class="col-lg-4 blue">This is the extra row that i decided to add</div>
+        <div class="col-lg-4 blue">COL LG 4</div>
+    </div>
+</div>
+</body>
+</html>
+
+<!-- The bootstrap grid system will act as the skeleton for our web page. -->
+
