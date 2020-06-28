@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tour Schedule</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;500;600&display=swap" rel="stylesheet">
+    <style type="text/css">
+        .date {
+            background: gray;
+            border: 20px solid white;
+            text-align: center;        }
+    </style>
+</head>
+<body>
+    <!-- this should be an example of the tour dates in grid system part 2 video (WDBC) -->
+
+    <!-- This is just the structure...not the content so it doesnt look too similar visually -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 date">
+                <h2>TOUR DATE!</h2>
+                <h3>JUNE 15</h3>
+            </div>   <!-- each takes up three units since we need four across during LG and MD screen sizes -->
+            <div class="col-lg-3 col-md-3 col-sm-6 date">
+                <h2>TOUR DATE!</h2>
+                <h3>JUNE 17</h3>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 date">
+                <h2>TOUR DATE!</h2>
+                <h3>JUNE 19</h3>
+            </div>
+            <div class="col-md-3 col-sm-6 date"> <!-- this is showing that you can choose "col-md-3" and Bootstrap will know that col-lg-3 should be the same aka less typing --> 
+                <h2>TOUR DATE!</h2>
+                <h3>JUNE 21</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

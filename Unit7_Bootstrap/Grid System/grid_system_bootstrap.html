@@ -1,3 +1,5 @@
+<!-- KEEP IN MIND THIS IS BOOTSTRAP 3.3.5 not 4 -->
+
 <!-- using the grid system we can tell things how much space to take up. especially when we hit "mobile" size. -->
 
 <!DOCTYPE html>
@@ -16,6 +18,11 @@
             background: blue;
             border: 2px solid white;
         }
+        .orange {
+            background: orange;
+            border: 1px dashed green;
+            height: 30px;
+        }
     </style>
 </head>
 <body>
@@ -24,6 +31,7 @@
         Objectives:
     1. Understand the purpose of the grid system
     2. Understand the 4 different sizes
+        (lg, md, s, xs)
     3. Write Nested Grids
  
  -->
@@ -31,9 +39,24 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-2 pink">COL LG 2</div>
-        <div class="col-lg-8 pink">COL LG 8</div>
-        <div class="col-lg-2 pink">COL LG 2</div>
+        <div class="col-md-4 pink">
+            <div class="row">
+                <div class="col-sm-4 orange">THIS</div>
+                <div class="col-sm-4 orange">IS A</div>
+                <div class="col-sm-4 orange">NESTED GRID</div> <!-- this is showing that you can also create row's within rows and have the same 12 column structure -->
+            </div>
+        </div>
+        <div class="col-md-4 pink">COL LG 4</div>
+        <div class="col-md-4 pink">
+            <div class="row">
+                <div class="col-sm-2 orange">1</div>
+                <div class="col-sm-2 orange">2</div>
+                <div class="col-sm-2 orange">3</div>
+                <div class="col-sm-2 orange">4</div>
+                <div class="col-sm-2 orange">5</div>
+                <div class="col-sm-2 orange">6</div>
+            </div>
+        </div>
     </div>
     <!-- Adding another row is easy... -->
     <div class="row">
